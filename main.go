@@ -49,7 +49,7 @@ func (v *resBody) urls() (s *[]string) {
 }
 
 func main() {
-	tag := `file_type%3Avideo+m-rs`
+	tag := `file_type%3Avideo%204k_uhd%20marie_rose`
 	url := BASE_URL + tag
 	method := "GET"
 
