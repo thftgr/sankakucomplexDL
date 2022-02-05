@@ -49,7 +49,23 @@ func (v *resBody) urls() (s *[]string) {
 }
 
 func main() {
-	tag := `file_type%3Avideo%204k_uhd%20marie_rose`
+	tag := `file_type%3Avideo%20tifa_lockhart%20high_resolution`
+	//tag := `file_type%3Avideo%20tracer_%28overwatch%29%20high_resolution`
+	//tag := `file_type%3Avideo%20tracer_%28overwatch%29%20very_high_resolution`
+	//tag := `file_type%3Avideo%20sombra_%28overwatch%29%20high_resolution`
+	//tag := `file_type%3Avideo%20sombra_%28overwatch%29%20very_high_resolution`
+	//tag := `file_type%3Avideo%20d.va_%28overwatch%29%20high_resolution`
+	//tag := `file_type%3Avideo%20d.va_%28overwatch%29%20very_high_resolution`
+	//tag := `file_type%3Avideo%20mei_%28overwatch%29%20high_resolution`
+	//tag := `file_type%3Avideo%20mei_%28overwatch%29%20very_high_resolution`
+	//tag := `file_type%3Avideo%20mercy_%28overwatch%29%20high_resolution`
+	//tag := `file_type%3Avideo%20mercy_%28overwatch%29%20very_high_resolution`
+	//tag := `file_type%3Avideo%20widowmaker_%28overwatch%29%20very_high_resolution`
+	//tag := `file_type%3Avideo%20widowmaker_%28overwatch%29%20high_resolution`
+	//tag := `file_type%3Avideo%20k%2Fda_%28league_of_legends%29%20very_high_resolution`
+	//tag := `file_type%3Avideo%20k%2Fda_%28league_of_legends%29%20high_resolution`
+	//tag := `file_type%3Avideo%20marie_rose%20very_high_resolution`
+	//tag := `file_type%3Avideo%20marie_rose%20high_resolution`
 	url := BASE_URL + tag
 	method := "GET"
 
